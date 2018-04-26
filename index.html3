@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset=utf-8 />
+    
+          
+          <style>
+    
+       <body>{
+              background-color:white;
+         
+       }
+   
+    h1 {   
+   font-family:gothicE;
+   font-size:70px;
+   width: 100%;
+   text-align: center; 
+   border-style: 0;
+   border-top-width: 0px; 
+   height: 70%;        
+        
+}
+    p{
+       font-family: courier new;         
+       
+}     
+           
+           
+           
+           
+           h3,  h2 {
+                   font-family: courier new;
+                   font-size:small;
+               }           
+     
+           #container{
+                     display:inline-block;
+                      margin: 0  auto;
+                      float:left;
+                      width: 350px;   
+     }        
+           
+           #content{
+                    float: left; 
+                     clear:right;
+                     margin:0 0 100px 10px
+                      padding:10px;      
+           }
+          
+           
+            #container2  {
+                          display:inline-block;
+                          margin:0px 10px 0px
+                          float: right; 
+                          padding:10px;          
+                          width:370px;
+
+              }
+              
+              
+              #content2 {
+                         float:right;
+                         padding: 1px;
+                             
+                  
+              }
+              
+             img1 {
+                   float :right;
+                  
+              }
+              
+              
+              
+              
+           #container1{
+                      display:inline-block;
+                      margin: 0  auto;
+                      float:right;
+                      width:500px;
+     }                
+           #content1{
+                    float: right; 
+     {              margin:0px 20px 0px 10px
+                    padding:15px;
+            
+                
+              
+ </style> 
+    
+    
+    
+   <script type="text/javascript"> 
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+
+
+    
+    
+    <h1>THE  DAILY  TABBIES</h1> 
+        <div id="clockbox"></div>
+
+    <hr>
+    <hr>
+     
+          
+    <h2>Headline News.</h2>
+  <div id="container">
+     <div id="content">
+   <article>
+    <header>
+      <h3>The President, 
+          Congress Deadlock 
+          on DACA <br>Immigration Status.
+                    </h3>
+            </header>
+              <img src="immigrants.jpg" alt="Dreamers" width="200" height="200"><br>
+    <p1> By Anthony Adams 
+        And Maria Jones.<br>
+        The controversy continues on Capitol 
+        Hill this afternoon as Republicans 
+       and Democrats voted along party lines to
+      snowball the Dreamers initiatives 
+      enacted under President Obama administration.The Key issues on both sides of the isle which are the major sticking points
+      are the pathway to Citizenship for the Dreamers, funding for the controversal Border Wall and closing the loopholes in the immigration Laws.The President had made it crystal clear that there will  be no DACA without funding for the wall ,by the Congress. The Republicans in the Congress Argued that the issues are separate issues and should not be binding ,together with any other issues other than the Immigration debates for reforms of the Immigration Laws.The Democrats however disagreed on these standards to initiate productive negotiation which will bring real changes to the immigration. The Senate minority leader has treathened to fillabuster any immigration legislation which does  not include  pathway to Citizenship for the DACAS and Independents and Conservatives see things much more radical than Democrats and Republicans.  However The Federal Courts granted reprieve to Dreamers , recently when Federal Judges granted stays on Several Court challenges ,which seeks the end of DACA  Programs in Several States. This however promted the White House to review their Options on DACA and though they granted no reprieved for the Dreams their stance seems to shift from the Courts to the legislative Body in the Congress. 
+        </p1>
+      
+   
+    </article>
+ </div>
+   </div>    
+ 
+     <img src="mayo.jpg" alt="leader" width="200" height="200"><br>
+   
+    <div id="container2">
+     <div id="content2">
+    <article>
+      <header>
+      <h3>In a Dramatic Show Down
+         This Morning the NYFD Union
+        went on Strike ...</h3>
+    </header>
+    <p1>By Susan Swartz.<br>
+            
+     The president of the NYFD Union
+      drop a suprising boom shell on City Hall this morning,without any prior notices called a strick of all it's effective immediately. However the union President stated clearly that all Fire related emergencies will be attended to but nothing will change until Contracts negotiations are Settled .The Fire Department has been without a contract for the past two years and negotiations have been stalled without any sight of a settlement being reached in the forseenable futher. The Mayor has not been seen since the strike took effect but a Statement was released from City Hall to the Press, which "states that the Actions taken by the Union President and Members were reckless and irresponsible ". However as this saga continues, the Fire houses are mostly beening evacuated ,as Fire Fighters headed Home. </p1>
+    
+      
+     </article>
+</div>
+   </div> 
+
+    <div id="container1">
+     <div id="content1">
+  
+      <section>
+          <h> BREAKING NEWS....</h>...<h2> cont'd below...</h2>
+       <img src="trumpdoctor.jpg" alt="Dreamers" width="200" height="200"><br><br><br><br><br> 
+             
+      <img src="theresa.jpg" alt="leader" width="200" height="200"><br>
+  <h2>BRITISH PM OFFERS 
+       APOLOGY</h2>
+
+  <article>
+    <header>
+      <h3>West Indians in the UK facing<br> Depotation ok for now says Officials</h3>
+    </header>
+    <p1>By Bert Wilkinson.<br>
+      The issue blew up in the face of  the British Government at precisely the right time just when leaders of  the 53-member grouping of Commonwealth Nations were assembling in London for this week's biennial summit of former British colonies around the Globe.For weeks, many in the Caribbean or West Indians immigrant communities, has been complaining about threats by the immigration department to deport them back to the region because various changes in British Laws over the years had virtually made them non-citizens and eligible for deportation.This is because thousands of caribbean Nationals has positively responded to the calls by the Colonial era British Governments to settle in the United Kingdom to help rebuild the Country after World War two. Eager to  leave behind a Life of poverty and wants from their native Islands,the first batchs of the native Islanders arrived on the "Empire Windrush" cruise ship in 1948 and were welcolm with open arms as they brought their skills such as Nursing,Auto Mechanics and others to the British Colony.They were promised Citizenship from the Brittons and many were told they were automatic British Citizens and did not require to change their Status as Aliens as they were given the Invitation of been British Citizens by the Government who had invited them to London to settle as Citizens. in  recent weeks however,British Media, the Community of Caribbean high commissioner in London , right Groups and relatives of thousands who has been linedup for deportation, started a crusade against what they called the inhumaneand heartless treatment meted out to West Indians.They complained about lost of jobs,being denied health care benefits and being detained by the authorities .At the last seating of Parlament Several opposition legislators rased the issues stridently on the floor which forced appologies from Several Members , Including the Prime Minister, Theresa May, who said that she has taken this issue very seriously. The Home Secretary also apologized in the House of Commons. She said " I want to apologize to you today, because we are genuinely sorry for  any hardship this may have caused and those of you who arrived from the Caribbean before 1973 and lived here permanently. 
+    
+       </p1> 
+        
+           
+  </article>
+    </section> 
+ </div>
+   </div>   
+ 
+    <div id="container">
+     <div id="content">
+
+     <section>
+    <article>   
+     <header>   
+      <h2> Three People Found Dead ...</h2>
+    </header>
+    <p> By Andrew Mckenzie.<br>
+        THE Police Department found the bodies  of three Individuals shot dead in there apartment, shortly after 1pm this after-noon. According to the Police spoke Person the Bodies were Discovered by a friend who came by to visit one of the deseased and when all calls went unanswered the Police were notified. The names of the Individuals are been held until there next of kins are notified .
+        The Police are still investigating the motives for this <br>shooting....</p>
+    
+  </article>
+
+</section>
+  </div>
+   </div>         
+  
+              
+   <div id="container">
+     <div id="content"> 
+    <section> 
+    <h> ENTERTAINMENT NEWS.</h>
+   
+       <article>
+    <header>
+      <h3>Theater Directories.<br>Bronx.<br>
+          The Odeon-Broadway & 147 Street.<br>
+        Featuring:<br>The Unbelivers.<br>The Day of Reconning.<br>My Last Chance<br>
+          All Night Movies-178 & Grand Concourse.
+        Featuring:<br> Only You.<br>Dating<br>The Last Race .<br>
+          Manhattan.<br>
+          Cinema- Max. 7 Ave & 43 Street.
+        Featuring: Sister Odimah. <br> walking the Straight Line <br>The Family<br>Chances.<br>
+          # 1 Move House:<br>Featuring:<br>walking the Straight Line<br>Unbelivers<br>Only You
+        </h3>
+    </header>
+    <p>CLASSIFIRD ADS.<br>
+       <img src="dentist.jpg" alt="Dreamers" width="200" height="200"><br><br><br><br><br>
+           </p>
+           
+   
+  </article>
+
+</section>            
+             
+</div>
+   </div>  
+         
+         
+         
+  <div id="container2">
+     <div id="content2">       
+  <section>
+  <h2>cont'd from above..</h2>
+
+  <article>
+    <header>
+      <h3>White House doctor Ronny Jackson withdraws from VA nomination</h3>
+    </header>
+    <p>By Steve Holland and Roberta Rampton
+
+WASHINGTON - U.S. President Donald Trump's physician Ronny Jackson withdrew on Thursday from consideration to head the Department of Veterans Affairs after allegations about misconduct mounted and a Senate panel postponed his confirmation hearing.
+
+"While I will forever be grateful for the trust and confidence President Trump has placed in me by giving me this opportunity, I am regretfully withdrawing my nomination to be Secretary for the Department of Veterans Affairs," Jackson said in a statement.
+
+The Senate Committee on Veterans' Affairs was investigating allegations that Jackson, a U.S. Navy rear admiral who has been physician to three presidents, had overseen a hostile work environment as White House physician, drank on the job and allowed the overprescribing of drugs.
+
+Trump lashed out angrily at Democrats for Jackson's withdrawal in a phone interview with Fox News, calling them obstructionists who were politicizing his nominees. He singled out Senator Jon Tester, the top-ranking Democrat on the Senate Veterans' Affairs committee, who gave a series of interviews about the allegations against Jackson.
+
+
+  
+  </article>
+  </section>
+  </div>
+   </div>  
+  
+    
+    <section>  
+  <article>
+    <header>
+      <h3></h3>
+    </header>
+    <p></p>
+    <footer>
+      <!-- … -->
+    </footer>
+  </article>
+
+</section>           
+  
+     
+</body>
+</html>
